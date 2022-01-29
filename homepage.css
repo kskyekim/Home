@@ -84,8 +84,8 @@ a {
 
 .body {
     padding-top: 140px;
-    padding-left: 220px;
-    padding-right: 220px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
 .intro {

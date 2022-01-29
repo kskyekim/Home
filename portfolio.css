@@ -63,6 +63,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     gap: 45px;
+    gap: min(85px);
 }
 
 .box {
