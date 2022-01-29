@@ -92,10 +92,6 @@ a {
     padding-right: 130px;
 }
 
-.intro {
-    background: #A8D0E6;
-}
-
 p {
     font-family: 'Karla', serif;
     font-weight: 500;
@@ -117,6 +113,8 @@ p {
     width: 200px;
     height: 200px;
     box-shadow: 0 7px 0 rgb(0 0 0 / 10%);
+    min-width: 200px;
+    min-height: 200px;
 }
 
 .one {
@@ -143,7 +141,7 @@ p {
 }
 
 .intro-p {
-    width: 800px;
+    width: 820px;
     padding: 0;
     margin: -5px;
 }
@@ -180,7 +178,7 @@ p {
 
 .body {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
 .one {
@@ -196,16 +194,6 @@ p {
     align-items: center;
 }
 
-.letter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 200px;
-    min-height: 200px;
-}
-
-.intro {
-    display: flex;
-    align-items: center;
-    gap: 100px;
+.letter, .one {
+    margin-right: auto;
 }

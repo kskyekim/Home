@@ -62,8 +62,8 @@ h1 {
 .box-row {
     display: flex;
     justify-content: space-between;
-    gap: 45px;
-    gap: min(85px);
+    gap: 40px;
+    gap: min(20 px);
 }
 
 .box {
