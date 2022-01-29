@@ -14,11 +14,14 @@ body {
     font-weight: 300;
     font-size: 22px;
     background: #A8D0E6;
+    margin-top: 0;
 }
 
 .header {
+    background: #A8D0E6;
     padding: 18px;
     box-shadow: 0 3px 0 rgb(0 0 0 / 10%);
+    margin: 0;
 }
 
 .k {
@@ -48,13 +51,14 @@ body {
 
 ul {
     list-style-type: none;
-    color: #546873;
+    color: white;
     font-weight: 500;
     font-family: 'Karla', sans-serif;
 }
 
 .github {
-    border-radius: 8px;
+    width: 90px;
+    border-radius: 5px;
     background: #F76C6C;
     border: transparent;
     padding: 8px 16px;
@@ -62,81 +66,94 @@ ul {
     font-weight: 600;
     color: white;
     box-shadow: 0 3px 0 rgb(0 0 0 / 10%);
+    cursor: pointer;
 }
 
-.header-links {
+a {
     text-decoration: none;
-    color: #546873;
+    color: white;
+}
+
+#portfolio {
+    scroll-margin-top: 3em;
 }
 
 
 /* Body style */
 
 .body {
-    padding: 28px;
+    padding-top: 140px;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .intro {
     background: #A8D0E6;
-    border-radius: 30px;
-    width: 800px;
-    height: 340px;
-    padding-left: 60px;
-    padding-right: 60px;
-    box-sizing: border-box;
 }
 
 p {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    padding-bottom: 0px;
-    margin-bottom: -5px;
-    color: #546873;
-    letter-spacing: 0.5px;
+    font-family: 'Karla', serif;
+    font-weight: 500;
+    font-size: 33px;
+    color: black;
+    line-height: 40px;
 }
 
-.name {
-    font-family: 'Roboto Slab', serif;
+.letter {
+    border-radius: 50%;
+    border-color: white;
+    border-width: 20px;
+    background: transparent;
+    font-family: 'Karla', sans-serif;
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 900;
     color: white;
-    text-shadow: 0 3px 0 rgb(0 0 0 / 10%);
-    letter-spacing: 4px;
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 7px 0 rgb(0 0 0 / 10%);
+}
+
+.one {
+    background: white;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 7px 0 rgb(0 0 0 / 10%);
 }
 
 .intro-button {
-    background: #F8E9A1;
-    width: 100px;
-    padding: 10px;
-    border-radius: 8px;
+    background: #F76C6C;
+    width: 120px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 5px;
     border: transparent;
     box-shadow: 0 3px 0 rgb(0 0 0 / 10%);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     color: white;
+    cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: #546873;
+.intro-p {
+    width: 800px;
+    padding: 0;
+    margin: -5px;
 }
 
 
 
 /* header flexbox */
 
-/*
-.page {
-    display: flex;
-    justify-content: center;
-    width: 1300px;
-}
-*/
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*width: 1300px;*/
+    position: fixed;
+    box-sizing: border-box;
+    width: 99.2%;
 }
 
 .left, .right {
@@ -159,13 +176,13 @@ a {
 .body {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .one {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
 }
 
 .intro-button {
@@ -176,7 +193,6 @@ a {
 
 .intro {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 300px;
 }

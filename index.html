@@ -7,6 +7,7 @@
     <meta charset="utc-8" />
     <title>KSKYEKIM</title>
     <link rel="stylesheet" href="./homepage.css" />
+    <link rel="stylesheet" href="./portfolio.css" />
 </head>
 
 <body>
@@ -20,18 +21,20 @@
                     K
                 </button>
                 <div class="logo">
-                    KSKYEKIM
+                    <a href="#top">
+                        KSKYEKIM
+                    </a>
                 </div>
             </div>
 
             <!-- This is for content on the right -->
             <div class="right">
                 <ul class="head">
-                    <li><a class ="header-links" href="./Pages/about.html">About</a></li>
-                    <li>Portfolio</li>
+                    <li><a href="./Pages/about.html">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li>Resume</li>
                 </ul>
-                <button class="github">
+                <button class="github" onclick="location.href='https://github.com/kskyekim'">
                     GitHub
                 </button>
             </div>
@@ -41,12 +44,79 @@
         <div class="body">
             <div class="intro">
                 <div class="one">
-                    <p>Hi, my name is</p>
-                    <div class="name">Keven Kim</div>
+                    <p class="intro-p">
+                        Hi! My name is Keven Kim and I am a sophomore at the University of Michigan, studying Computer Science.
+                        I am passionate about developing programs that help bring a positive impact to the
+                        community around me.
+                    </p>
+
+                    <button class="intro-button" onclick="window.location.href='./Pages/about.html'">
+                        About Me
+                    </button>
                 </div>
-                <button class="intro-button"><a href="./Pages/about.html">
-                    Read More!
-                </a></button>
+
+                <button class="letter">K</button>
+            </div>
+        </div>
+
+        <!-- This is the portfolio section -->
+        <div class="portfolio" id="portfolio">
+            <h1 class="header-1">Projects</h1>
+
+            <!-- row 1 -->
+            <div class="box-row">
+                <div class="box" id="one">
+                    <div class="top" id="one">
+
+                    </div>
+                    <div class="bottom" id="one">
+
+                    </div>
+                </div>
+                <div class="box" id="two">
+                    <div class="top" id="two">
+
+                    </div>
+                    <div class="bottom" id="two">
+
+                    </div>
+                </div>
+                <div class="box" id="three">
+                    <div class="top" id="three">
+
+                    </div>
+                    <div class="bottom" id="three">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+            <div class="box-row">
+                <div class="box" id="four">
+                    <div class="top" id="four">
+
+                    </div>
+                    <div class="bottom" id="four">
+
+                    </div>
+                </div>
+                <div class="box" id="five">
+                    <div class="top" id="five">
+
+                    </div>
+                    <div class="bottom" id="five">
+
+                    </div>
+                </div>
+                <div class="box" id="six">
+                    <div class="top" id="six">
+
+                    </div>
+                    <div class="bottom" id="six">
+
+                    </div>
+                </div>
             </div>
         </div>
 

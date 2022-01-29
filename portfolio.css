@@ -1,0 +1,72 @@
+/* This is the import for the font 'Karla' */
+/* font-family: 'Karla', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans&display=swap');
+
+/* This is the portfolio section */
+
+h1 {
+    font-family: 'Karla', sans-serif;
+}
+
+.box {
+    background: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    border-color: #97bbcf;
+    border-width: 5px;
+    box-shadow: 0 7px 0 rgb(0 0 0 / 10%);
+}
+
+.top {
+    width: 350px;
+    height: 250px;
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #ababab;
+}
+
+.bottom {
+    width: 350px;
+    height: 125px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: white;
+    margin-top: -25px;
+}
+
+#one.top {
+
+}
+
+/* portfolio flexbox */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 100px;
+    gap: 70px;
+}
+
+.header-1 {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
