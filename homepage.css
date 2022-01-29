@@ -88,8 +88,8 @@ a {
 
 .body {
     padding-top: 140px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 .intro {
@@ -157,8 +157,8 @@ p {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    box-sizing: border-box;
-    width: 99.2%;
+    box-sizing: border-box; 
+    width: 100%;
 }
 
 .left, .right {
@@ -200,7 +200,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px;
     min-width: 200px;
     min-height: 200px;
 }
@@ -208,5 +207,5 @@ p {
 .intro {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 100px;
 }
