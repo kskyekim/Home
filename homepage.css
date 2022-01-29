@@ -194,5 +194,6 @@ p {
 .intro {
     display: flex;
     align-items: center;
-    gap: 300px;
+    justify-content: space-between;
+    padding-right: 80px;
 }
