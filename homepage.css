@@ -191,9 +191,15 @@ p {
     align-items: center;
 }
 
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
 .intro {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 80px;
 }
